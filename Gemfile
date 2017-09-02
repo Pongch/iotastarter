@@ -14,7 +14,6 @@ end
 group :production do
   gem 'thin'
   gem 'pg'
-  gem 'rails_12factor'
 end
 
 # Gems used only for assets and not required
@@ -35,7 +34,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
 # Kickstarter's awesome Amazon Flexible Payments gem
-gem 'amazon_flex_pay'
+#gem 'amazon_flex_pay'
 
 # Configuration File
 gem 'rails_config'
